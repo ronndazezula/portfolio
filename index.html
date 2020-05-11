@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ronnda Zezula</title>
+    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+</head>
+<body>
+<body class="background">
+    <!--NAV-->
+    <div class="navbar">
+		<a class="active" href="#home">Home</a> 
+		<a href="#about">About</a>
+		<a href="#github">Portfolio</a>
+		<a href="#contact">Contact</a>
+	</div><br><br>
+    <!--END NAV-->
+    <!--VIDEO-->
+    <div id="home">
+        <video autoplay muted loop id="typing_video"> <!--video looped without sound-->
+			<source src="./video/typing.mp4" type="video/mp4">
+		This HTML5 video is not supported on your browser. <!--alt text if video fails-->
+		</video>
+    </div>
+    <div class="video_text"> 
+		<h1 style="color:whitesmoke;">Ronnda Zezula's Portfolio</h1>
+			<p> 
+				<strong>
+					<center>
+						<q>A good programmer is someone who always looks both ways before crossing a one-way street.</q><br>
+						- <small>Doug Linder</small><br><br>
+						<br>
+						My name is Ronnda Zezula. Welcome to my portfolio website.<br><br>
+						On this site I offer basic information about my professional background and experience.<br><br>
+						If you would like more information, click the "Contact" button to send me a message.<br><br>
+						Thank you for your valuable time!
+					</center>
+				</strong>
+			</p> 
+	</div>
+    <!--END VIDEO-->
+    <!--ABOUT-->
+    <div class="row" id="about"> 
+		<div class="column_2"> <!--left column-->
+			<img src="./images/aboutme.png" alt="About Me">
+		</div>
+  
+		<div class="column_1"> <!--right column-->
+			<h1>About Me</h2>
+                <p>I am a web and software developer who is driven by a passion for coding! ... <br><br>
+                I am a graduate of <a href=https://www.learncodinganywhere.com/codingbootcamps target="_blank">The Tech Academy</a>’s Python Developer Boot Camp, both trained and experienced in multiple<br>
+                programming languages, including: Python, JavaScript, HTML5, CSS and SQL. <br><br>
+                I am a full-stack web and software developer who would love to work on your projects. <a href="#contact">Follow this link</a> to contact me!</p>
+		</div>
+	</div>
+    <!--END ABOUT-->
+    <!--GITHUB-->
+    <div class="row" id="github">
+		<div class="column_1"> <!--left column-->
+			<h1>Project Examples</h1>
+				<p>Examples of my coding projects can been viewed <a href="https://github.com/ronndazezula" target="_blank">on my GitHub</a></center>.</p>
+		</div>
+		
+		<div class="column_2"> <!-- Right column -->
+			<a href="https://github.com/ronndazezula" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
+		</div>
+	</div>
+    <!--END GITHUB-->
+    <!--CONTACT-->
+    <div class="row" id="contact"> 
+		<div class="column_3"> <!--left column contact image-->
+			<img src="./images/contact.png" alt="Contact Me">
+		</div>	
+		<div class="column_1"> <!--right column contact form-->
+			<h1>Contact Me</h2> 
+				<form action="" method="get"> <!--where to send the form - set to blank-->
+					<label>Name:</label>
+						<input type="text" placeholder="Nice to meet you! What is your name?">
+					<label>Email:</label>
+						<input type="text" id="email" name="email" placeholder="Where can I email you to respond?">
+					<label>Message:</label>
+						<input type="text" id="message" name="message" placeholder=" Please Let me know how I can help you.">
+						<input type="submit" value="submit">
+				</form>
+		</div>
+	</div>
+    <!--END CONTACT-->
+    <!--FOOTER-->
+    <footer>
+		<p>
+		<center>&copy 2020 | Ronnda Zezula's <a href="https://ronnda.info/">Portfolio website</a></center><br>
+		</p>
+	</footer>
+    <!--END FOOTER-->
+</body>
+</html>
